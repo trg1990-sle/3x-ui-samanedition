@@ -158,8 +158,8 @@ class KcpStreamSettings extends CommonClass {
         uplinkCapacity = 5,
         downlinkCapacity = 20,
         congestion = false,
-        readBufferSize = 2,
-        writeBufferSize = 2,
+        readBufferSize = 5,
+        writeBufferSize = 5,
         type = 'none',
         seed = '',
     ) {
